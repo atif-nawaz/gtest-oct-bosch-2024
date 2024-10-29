@@ -19,9 +19,8 @@ add_compile_options("--coverage")
 add_executable(
   unittestcode
   Testcase.cpp
- StringCalculator.Tests.cpp
 StringCalculator.cpp
-StringCalculator.Fixture.cpp
+StringCalculatorValParameters.cpp
  )
 target_link_libraries(
   unittestcode
