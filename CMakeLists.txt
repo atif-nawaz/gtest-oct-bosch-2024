@@ -18,7 +18,7 @@ enable_testing()
 add_compile_options("--coverage")
 add_executable(
   unittestcode
-  TestCases.cpp
+  Testcase.cpp
  StringCalculator.Tests.cpp
 StringCalculator.cpp
 StringCalculator.Fixture.cpp
