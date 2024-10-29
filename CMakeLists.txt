@@ -20,7 +20,7 @@ add_executable(
   unittestcode
   Testcase.cpp
 StringCalculator.cpp
-StringCalculatorValParameters.cpp
+StringCalculatorValParameter.cpp
  )
 target_link_libraries(
   unittestcode
